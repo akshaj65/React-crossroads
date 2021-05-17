@@ -1,6 +1,14 @@
+import './App.css'
+import Header from './components/Header'
 function App() {
+
+  const data='hdhdh'
   return (
-    <h1>Hello World</h1>
+   <div>
+     <Header data={data} />
+   <h1 className='hello'>hello</h1>
+   <p>{data}</p>
+   </div>
   );
 }
 
