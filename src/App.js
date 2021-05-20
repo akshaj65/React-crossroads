@@ -29,6 +29,7 @@ function App() {
 
   return (
   <div>
+    //spread and rest operators (...) 
     <button onClick={addCount}>Add</button>
 
     <h1>Default code</h1>
@@ -36,7 +37,7 @@ function App() {
     <Counter title='2nd counter'count={count}/>
     <br/>
 
-    <h1>using spread function (...objectname)</h1>
+    <h1>using spread operator (...objectname)</h1>
     <Counter1 {...obj}/>
     <Counter1 title='2nd counter'count={count}/> 
     <br/>
